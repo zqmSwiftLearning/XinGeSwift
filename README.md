@@ -1,11 +1,11 @@
 ###信鸽推送SDK2.4.0Swift1.2Demo
------
+---
 > ##### 开发环境:OS X Yosemite 10.10.3 + Xcode 6.4
 
 > ##### 开发语言:Swift 1.2
 
 ###使用方法
-----
+---
 * 把`XinGeSDK2_4_0`文件拷贝到工程中
 * 拷贝`XinGeAppDelegate.swift`到工程中
 * 在	`工程名-Bridging-Header.h`桥接文件中，添加
@@ -36,7 +36,9 @@ class AppDelegate: XinGeAppDelegate{
 
 
 
- #### 添加必要的框架: 
+###添加必要的框架: 
+---
+ 
 * `CoreGraphics.framework`
 * `CoreTelephony.framework`
 * `SystemConfiguration.framework`
