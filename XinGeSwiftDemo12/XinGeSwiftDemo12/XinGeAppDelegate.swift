@@ -8,6 +8,10 @@
 
 import UIKit
 
+
+let IPHONE_8:Int32 = 80000
+
+
 /// ACCESS ID
 let kXinGeAppId: UInt32 = 填写ACCESS ID,例如:1234567890
 
@@ -67,7 +71,7 @@ class XinGeAppDelegate: UIResponder, UIApplicationDelegate {
             if !XGPush.isUnRegisterStatus()
             {
                 
-                if __IPHONE_OS_VERSION_MAX_ALLOWED >= 80000
+                if __IPHONE_OS_VERSION_MAX_ALLOWED >= IPHONE_8
                 {
                     
                     if (UIDevice.currentDevice().systemVersion.compare("8", options:.NumericSearch) != NSComparisonResult.OrderedAscending)

@@ -398,13 +398,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = XinGeSwiftDemo12/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/XinGeSwiftDemo12/XinGeSDK1_2_1",
 					"$(PROJECT_DIR)/XinGeSwiftDemo12/XinGeSDK2_4_0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -417,13 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = XinGeSwiftDemo12/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/XinGeSwiftDemo12/XinGeSDK1_2_1",
 					"$(PROJECT_DIR)/XinGeSwiftDemo12/XinGeSDK2_4_0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +484,7 @@
 				9B9D9EB31B8EB2B10016923F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B9D9EB41B8EB2B10016923F /* Build configuration list for PBXNativeTarget "XinGeSwiftDemo12Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				9B9D9EB61B8EB2B10016923F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
