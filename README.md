@@ -15,14 +15,31 @@
 ```
 * `AppDelegate`继承`XinGeAppDelegate`,并且两者有且只有一个`var window: UIWindow?`属性。继承的方法前需要添加`override`关键字，例如:
 ```swift
-override func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
+import UIKit
+
+@UIApplicationMain
+class AppDelegate: XinGeAppDelegate{
+    
+    var window: UIWindow?
+    
+    override func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
         
         // 在此处，可以设置UI等操作。
         
         return super.application(application, didFinishLaunchingWithOptions: launchOptions)
     }
+}
 ```
 
 
 * 在`XinGeAppDelegate.swift`文件中填写`ACCESS ID`和`ACCESS KEY`，从[腾讯信鸽官网](http://xg.qq.com/xg/)创建应用并提交材料。
 
+
+
+ #### 添加必要的框架: 
+* `CoreGraphics.framework`
+* `CoreTelephony.framework`
+* `SystemConfiguration.framework`
+* `libz.dylib`
+* `CFNetwork.framework`
+* `libsqlite3.dylib`
