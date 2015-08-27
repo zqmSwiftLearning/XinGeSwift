@@ -13,11 +13,11 @@ let IPHONE_8:Int32 = 80000
 
 
 /// ACCESS ID
-let kXinGeAppId: UInt32 = 填写ACCESS ID,例如:1234567890
+let IPHONE_8:Int32 = 80000
 
 
 /// ACCESS KEY
-let kXinGeAppKey:String! = 填写ACCESS KEY,例如:"AB345F7H89012"
+let kXinGeAppId: UInt32 = 填写ACCESS ID,例如:1234567890
 
 class XinGeAppDelegate: UIResponder, UIApplicationDelegate {
     
